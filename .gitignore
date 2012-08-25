@@ -11,12 +11,14 @@
 .bash_history
 .bash_logout
 .bashrc
+.byobu/*
 .cache/*
 .config/*
 .dbus/*
 .dmrc
 .gconf/*
 .gnome2/*
+.guvcviewrc
 .goutputstream-SK9IJW
 .gtk-bookmarks
 .local/
@@ -24,6 +26,8 @@
 .profile
 .pulse-cookie
 .pulse/
+.screenrc
+.ssh/*
 .vboxclient-display.pid
 .vboxclient-seamless.pid
 .viminfo
