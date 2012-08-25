@@ -1,0 +1,31 @@
+# Ignore non-dotfiles
+/*
+!.*
+
+# Ensure this .gitignore not ignored!
+!.gitignore
+
+# Ignore irrelevant dotfiles
+.ICEauthority
+.Xauthority
+.bash_history
+.bash_logout
+.bashrc
+.cache/*
+.config/*
+.dbus/*
+.dmrc
+.gconf/*
+.gnome2/*
+.goutputstream-SK9IJW
+.gtk-bookmarks
+.local/
+.mission-control/
+.profile
+.pulse-cookie
+.pulse/
+.vboxclient-display.pid
+.vboxclient-seamless.pid
+.viminfo
+.xsession-errors
+.xsession-errors.old
