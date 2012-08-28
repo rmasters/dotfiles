@@ -15,6 +15,7 @@
 .config/*
 .dbus/*
 .dmrc
+.gitconfig
 .gconf/*
 .gnome2/*
 .guvcviewrc
