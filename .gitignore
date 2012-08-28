@@ -11,7 +11,6 @@
 .bash_history
 .bash_logout
 .bashrc
-.byobu/*
 .cache/*
 .config/*
 .dbus/*
