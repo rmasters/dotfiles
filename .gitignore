@@ -23,6 +23,7 @@
 .gtk-bookmarks
 .local/
 .mission-control/
+.mysql_history
 .profile
 .pulse-cookie
 .pulse/
