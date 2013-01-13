@@ -1,37 +1,10 @@
-# Ignore non-dotfiles
-/*
-!.*
-
-# Ensure this .gitignore not ignored!
+# Ensure this .gitignore included
 !.gitignore
 
-# Ignore irrelevant dotfiles
+# Ignore things definitely not wanted
 .ICEauthority
 .Xauthority
-.bash_history
-.bash_logout
-.bashrc
-.cache/*
-.config/*
-.dbus/*
-.dmrc
-.gitconfig
-.gconf/*
-.gnome2/*
-.guvcviewrc
-.goutputstream-SK9IJW
-.gtk-bookmarks
-.lesshst
-.local/
-.mission-control/
-.mysql_history
-.profile
-.pulse-cookie
-.pulse/
 .screenrc
 .ssh/*
-.vboxclient-display.pid
-.vboxclient-seamless.pid
 .viminfo
-.xsession-errors
-.xsession-errors.old
+.xsession-errors*
