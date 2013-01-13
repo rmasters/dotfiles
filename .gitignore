@@ -1,3 +1,7 @@
+# Exclude non-dotfiles
+*
+!.*
+
 # Ensure this .gitignore included
 !.gitignore
 
