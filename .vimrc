@@ -9,3 +9,4 @@ set colorcolumn=80
 set number
 
 syntax on
+au BufRead,BufNewFile *.twig set filetype=htmldjango
