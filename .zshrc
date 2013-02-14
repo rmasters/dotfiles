@@ -45,5 +45,5 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/vagran
 
 # Auto-start tmux
 if [[ ! $TERM =~ screen ]]; then
-    exec tmux
+    exec tmux attach
 fi
