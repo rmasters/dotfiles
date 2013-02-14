@@ -41,7 +41,7 @@ source $ZSH/oh-my-zsh.sh
 setopt nocorrectall
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/vagrant/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/vagrant/bin:~/bin
 
 # Auto-start tmux
 if [[ ! $TERM =~ screen ]]; then
