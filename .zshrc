@@ -40,8 +40,10 @@ source $ZSH/oh-my-zsh.sh
 # Turn off autocompletion
 setopt nocorrectall
 
-# Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/vagrant/bin
+# Path setup
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+PATH=$PATH:/opt/vagrant/bin # Add Vagrant in the usual place for Linux
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Auto-start tmux
 if [[ ! $TERM =~ screen ]]; then
